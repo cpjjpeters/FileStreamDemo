@@ -19,6 +19,8 @@ namespace FileStreamDemo
             schrijfXml.WriteStartElement("Klanten");
             WriteKlantInfo(schrijfXml,"001", "Jansen", "Utrecht");
             WriteKlantInfo(schrijfXml, "002", "Van Dam", "Amsterdam");
+            WriteKlantInfo(schrijfXml, "003", "VanAkker", "Rotterdam");
+            WriteKlantInfo(schrijfXml, "004", "Damhof", "Antwerpen");
             schrijfXml.WriteEndDocument();
 
             schrijfXml.Close();
